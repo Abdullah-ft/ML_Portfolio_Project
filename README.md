@@ -121,28 +121,6 @@ Both models are encapsulated into production-ready `scikit-learn` pipelines (pre
 
 ---
 
-## 📂 Project Structure
-
-```text
-ML_Project/
-├── .streamlit/
-│   └── config.toml                  # Streamlit visual theme configuration
-├── models/
-│   ├── clf_pipeline.joblib          # Trained classification pipeline
-│   ├── clf_meta.json                # Feature ranges, types & defaults for classification
-│   ├── reg_pipeline.joblib          # Trained regression pipeline
-│   └── reg_meta.json                # Feature ranges, types & defaults for regression
-├── ecommerce_return_classification.csv # Return risk dataset
-├── influencer_campaign_regression.csv  # Influencer revenue dataset
-├── ML_Project.ipynb                 # Full end-to-end Jupyter Notebook (EDA, models, tuning)
-├── ml_common.py                     # Reusable training & evaluation utility module
-├── train_models.py                  # Script to retrain and regenerate model artifacts
-├── streamlit_app.py                 # Streamlit dual-tab interactive web application
-├── gradio_app.py                    # Gradio Blocks interactive web application
-├── requirements.txt                 # Project dependencies
-└── README.md                        # Documentation
-```
-
 ---
 
 ## ⚙️ Virtual Environment Setup
